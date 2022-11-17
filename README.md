@@ -3,7 +3,7 @@
  
 ## Ubuntu Firewall Blocking KVM Netowrk
  
-The technique to use to make this work on 12.04 was to edit /etc/ufw/sysctl.conf to have:
+The technique to use to make this work on 22.04 was to edit /etc/ufw/sysctl.conf to have:
 > Don't filter packets to our libvirt guests
 net.bridge.bridge-nf-call-ip6tables = 0
 net.bridge.bridge-nf-call-iptables = 0
