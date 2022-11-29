@@ -1,6 +1,14 @@
  QEMU-KVM
  ===========
- 
+
+## Configuring Bridge using Network Manager
+
+https://www.youtube.com/watch?v=amTJHm19ts0
+
+```
+sudo nm-connection-editor 
+```
+
 ## Ubuntu Firewall Blocking KVM Netowrk
  
 The technique to use to make this work on 22.04 was to edit /etc/ufw/sysctl.conf to have:
